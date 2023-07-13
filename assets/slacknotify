@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the Slack webhook URL
-WEBHOOK_URL="https://hooks.slack.com/services/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"
+WEBHOOK_URL="https://hooks.slack.com/services/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"
 
 # Set the channel for the message
 CHANNEL="#tinyml-google-colab"
