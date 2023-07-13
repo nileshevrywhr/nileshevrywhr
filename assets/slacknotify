@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Set the Slack webhook URL
+WEBHOOK_URL="https://hooks.slack.com/services/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"
+
+# Set the channel for the message
+CHANNEL="#tinyml-google-colab"
+
+# Set the username for the message
+USERNAME="BB-8"
+
+# Take the input string
+MESSAGE="$1"
+
+# Send the message to Slack
+curl -X POST -H "Content-type: application/json" --data "{\"channel\": \"$CHANNEL\", \"username\": \"$USERNAME\", \"text\": \"$MESSAGE\"}" $WEBHOOK_URL
